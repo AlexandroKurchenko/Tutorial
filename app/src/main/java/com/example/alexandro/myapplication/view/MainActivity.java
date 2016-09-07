@@ -55,26 +55,12 @@ public class MainActivity extends AppCompatActivity {
         if (persistence == null) {
             persistence = new MainPersistence(this);
         }
-//        persistence.OnCreate();
-//        if (getIntent().getBooleanExtra("restore", false)) {
-//            persistence.SetCurrentFragment(1, false, null);
-//        } else {
-//            persistence.SetCurrentFragment(0, false, null);
-//        }
-
-        new AsyncTask<Void, Void, Void>() {
-
-            @Override
-            protected Void doInBackground(Void... params) {
-
-
-
-
-                return null;
-            }
-        }.execute();
-
-
+        persistence.OnCreate();
+        if (getIntent().getBooleanExtra("restore", false)) {
+            persistence.SetCurrentFragment(1, false, null);
+        } else {
+            persistence.SetCurrentFragment(0, false, null);
+        }
     }
 
     @Override
