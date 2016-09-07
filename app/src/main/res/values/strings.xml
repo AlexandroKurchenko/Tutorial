@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="lock_message">This device was locked by another device</string>
+    <string name="unlock">Unlock</string>
+    <string name="block_message">Block this user</string>
+    <string name="no_user">There is no user found...\nPlease enter to this app from another device and refresh the list</string>
+</resources>
