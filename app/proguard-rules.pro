@@ -18,3 +18,6 @@
 -dontwarn com.backendless.**
 -dontwarn weborb.**
 -keep class weborb.** {*;}
+# - some changes
+# - new chnage for 3d commit
+#-hotfix at his line
